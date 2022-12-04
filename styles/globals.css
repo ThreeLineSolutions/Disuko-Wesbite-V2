@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Arial Rounded MT, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Keqima, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,6 +13,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Keqima';
+  src: url('https://download1654.mediafire.com/w6l3v01nmdwg/phj8c3kyogyrlvh/Keqima.ttf') format('tff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @media (prefers-color-scheme: dark) {
